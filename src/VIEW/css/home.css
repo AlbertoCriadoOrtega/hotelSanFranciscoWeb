@@ -1,0 +1,107 @@
+#video_bg {
+  opacity: 0.75;
+}
+
+#home_video {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+}
+
+#form_video_bg {
+  opacity: 0.75;
+  border: rgb(255, 221, 0) solid;
+  background-color: black;
+}
+
+.video_sides_bg {
+  background-color: black;
+  opacity: 0.75;
+}
+
+#introduction_carousel {
+  margin: 0;
+  padding: 0;
+}
+
+#introduction_text {
+  margin: 0;
+  padding: 0;
+}
+
+.introduction_text_bg {
+  background-color: #f5f5f5;
+}
+
+.bannerDetailesArrow {
+  border: solid rgb(203, 176, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.fontIcon {
+  height: 60px;
+  width: 60px;
+  border-radius: 90px;
+}
+
+.cards_habitaciones_bg {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.imgCardsHabitaciones:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.imgPromociones:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+#reseñas_indicators {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.imgCarouselReseñas {
+  background-image: url("/Home/res/Decor/450x390.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgFormReseñas {
+  background-image: url("/Home/res/Decor/fondoFormReseñas2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.borde_dorado {
+  border: solid rgb(203, 176, 1);
+}
+
+.background_dorado {
+  background-color: rgb(203, 176, 1);
+}
+
+input[type="date"] {
+  color: rgb(203, 176, 1);
+}
+
+#adultos,
+#niños,
+#camas {
+  color: rgb(203, 176, 1);
+}
+
+.tipoHabitaciones .tipoHabitacion {
+  margin-right: 150px;
+}

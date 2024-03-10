@@ -1,0 +1,29 @@
+#añadir,
+.boton-compra,
+.boton-vaciar {
+    background-color: #F2BA52; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: background-color 0.3s; 
+}
+
+
+#añadir:hover,
+.boton-compra:hover,
+.boton-vaciar:hover {
+    background-color: #0D0D0D; 
+}
+.boton-vaciar {
+    margin-top: 10px; 
+}
+
+#carrito{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
