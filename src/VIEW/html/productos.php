@@ -13,7 +13,7 @@
     $url = "http://localhost/hotelSanFranciscoWeb/src/CONTROLLER/controladorProductos.php/select/";
     $datosProductosBBDD = json_decode(file_get_contents($url), JSON_OBJECT_AS_ARRAY);
 
-
+    // Cargamos los datos de los productos a la vista por cada uno de ellos obtenidos por json y luego transformados a array
     foreach ($datosProductosBBDD as $key => $value) {
       echo '<div class="articulo col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-4">';
       echo '<div class="card">';

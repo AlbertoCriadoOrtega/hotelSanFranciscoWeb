@@ -27,6 +27,8 @@
       <!-- Button trigger modal -->
 
       <?php
+
+      // SI LA SESION ESTÁ INICIADA TE PINTA EL BOTON CON SESION INICIADA Y DE LO CONTRARIO TE PINTA EL DE INICIAR SESION
       if (isset($_SESSION["login"])) {
         echo '<button type="button" id="botonLogin" class="btn btn-lg rounded-pill align-self-center ms-2 ms-sm-0" data-bs-toggle="modal"
         data-bs-target="#modalLogin" aria-label="Iniciar sesión" disabled>
@@ -104,6 +106,7 @@
 
 
               <?php
+              //SI LA SESION ESTÁ INICIADA TE PERMITE USAR EL BOTON DE PAGAR
               if (isset($_SESSION["login"])) {
                 echo '<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>';
                 echo '<button type="button" class="btn btn-primary ms-1" id="compra">Pagar</button>';

@@ -10,6 +10,7 @@ $url = $_SERVER["REQUEST_URI"];
 $method = $_SERVER["REQUEST_METHOD"];
 $respuesta = new Response();
 $Productos = new ProductosModel();
+//SOLO SE USA EL PRIMER METODO PARA LA PAGINA WEB
 
 if (strpos($url, "/hotelSanFranciscoWeb/src/CONTROLLER/controladorProductos.php/select/") === 0) {
   if ($method == "GET") {

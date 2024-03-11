@@ -25,8 +25,8 @@ if (strpos($url, "/hotelSanFranciscoWeb/src/CONTROLLER/controladorUsuarios.php/s
       if ($resultado == true) {
         header('Location: http://localhost/hotelSanFranciscoWeb/src/index.php');
       } else {
+        //para notificar al usuario se envia parametros get a esta url 
         header('Location: http://localhost/hotelSanFranciscoWeb/src/index.php?registro=false');
-
       }
     } else {
       echo "s";
@@ -53,6 +53,8 @@ if (strpos($url, "/hotelSanFranciscoWeb/src/CONTROLLER/controladorUsuarios.php/l
         $_SESSION["login"] = $correo;
         header('Location: http://localhost/hotelSanFranciscoWeb/src/index.php');
       } else {
+
+        //para notificar al usuario se envia parametros get a esta url 
         header('Location: http://localhost/hotelSanFranciscoWeb/src/index.php?loginError=true');
       }
     } else {

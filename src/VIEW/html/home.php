@@ -1,7 +1,7 @@
 <div class="container-fluid" id="container">
 
   <!-- Video -->
-  <div class="row" id="row_video" style="margin-bottom: 200px; padding: 0;">
+  <div class="row d-none d-lg-block" id="row_video" style="margin-bottom: 200px; padding: 0;">
     <div class="col-12 bg-white" style="height: 1100px; padding: 0;" id="video">
       <video autoplay muted loop id="home_video" type="video/mp4" class="w-100"
         style="height: 1100px; margin: 0; padding: 0;">
@@ -10,12 +10,13 @@
       <div class="row" style="height: 800px; color: white;">
         <div class="col-lg-4 col-md-6 col-12 text-white text-left align-self-end"
           style="margin-left: 100px; opacity: 0.9999;" id="introduction_video_bg">
-          <introTitle style="font-size: 71px; font-family:Georgia, 'Times New Roman', Times, serif;">HOTEL SAN
+          <introTitle style="color:white; font-size: 71px; font-family:Georgia, 'Times New Roman', Times, serif;">HOTEL
+            SAN
             FRANCISCO
           </introTitle><br>
-          <subtitle style="font-size: 40px; font-style: italic;">Redescubre tu estancia en HSF</subtitle>
+          <subtitle style="color:white; font-size: 40px; font-style: italic;">Redescubre tu estancia en HSF</subtitle>
           <br><br>
-          <p class="d-none d-md-block" style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur
+          <p class="d-none d-md-block" style="color:white; font-size: 20px;">Lorem ipsum dolor sit amet consectetur
             adipisicing elit.
             Dolorum fugiat, aspernatur error modi magni similique blanditiis porro corrupti fuga totam
             laudantium maxime
@@ -159,7 +160,7 @@
     <div class="col-lg-6 col-md-12 rounded d-flex align-items-center introduction_text_bg mt-5">
       <!-- Logo -->
       <div class="row mb-lg-2">
-        <div class="d-none d-lg-block col-lg-2">
+        <div class="d-lg-block d-none  col-lg-2">
           <img src="VIEW/img/res/logo_banner.png" alt="imagen oferta" class="w-100">
         </div>
         <!-- Text -->
@@ -434,15 +435,15 @@
               alt="edificio Hotel San Francisco">
           </div>
           <div class="carousel-item" id="expItem2">
-            <img src="VIEW/img/res/Landscape/Slider expl/museo_del_prado.jpg" height="900px" class="d-block w-100"
+            <img src="VIEW/img/res/Landscape/Slider expl/museo_del_prado.jpg" class="d-block w-100"
               alt="edificio Hotel San Francisco">
           </div>
           <div class="carousel-item" id="expItem3">
-            <img src="VIEW/img/res/Landscape/Slider expl/plaza_mayor.jpg" height="900px" class="d-block w-100"
+            <img src="VIEW/img/res/Landscape/Slider expl/plaza_mayor.jpg" class="d-block w-100"
               alt="edificio Hotel San Francisco">
           </div>
           <div class="carousel-item" id="expItem4">
-            <img src="VIEW/img/res/Landscape/Slider expl/palacio_de_correos.jpg" height="900px" class="d-block w-100"
+            <img src="VIEW/img/res/Landscape/Slider expl/palacio_de_correos.jpg" class="d-block w-100"
               alt="edificio Hotel San Francisco">
           </div>
         </div>
@@ -461,12 +462,12 @@
   </div>
 
   <!-- Explorar Madrid-->
-  <div class="row justify-content-end p-4 mb-5 mt-5" style="margin-right: 75px;">
-    <div class="col-12 col-lg-2 text-black text-start mt-4"
+  <div class="row justify-content-around p-4 mb-5 mt-5" style="margin-right: 75px;">
+    <div class="col-12 col-md-2 col-lg-2 text-black text-start mt-4 pe-5  "
       style="font-size: 80px; font-family:Georgia, 'Times New Roman', Times, serif;">
       <textTitle>Explora</textTitle>
     </div>
-    <div class="col-12 col-lg-6 text-black text-start mt-5 mb-5"
+    <div class="col-12 col-lg-6 text-black text-start mt-5 mb-5 ps-5"
       style="font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif" id="text_explorar_madrid">
       <textTitle style="font-size: larger;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
         asperiores
@@ -490,7 +491,7 @@
     <div class="col-lg-8 col-11 rounded" style="border: solid 2px rgb(210, 175, 0);">
       <div class="row">
         <!-- Carousel Gimnasio -->
-        <div class="col-lg-3 col-10 m-5 m-lg-0 shadow rounded bg-white mb-4" style="padding: 0;"
+        <div class="col-10 col-lg-6 m-3 m-lg-0 shadow rounded bg-white mb-4" style="padding: 0;"
           alt="carrusel fotos gimnasio">
           <div id="actividades_carousel" class="carousel slide">
             <div id="actividades_carousel" class="carousel slide">
@@ -524,7 +525,7 @@
         </div>
 
         <!-- Carousel Piscina -->
-        <div class="col-lg-3 col-10 m-5 m-lg-0 shadow rounded bg-white mb-4" style="padding: 0;"
+        <div class="col-10 col-lg-6 m-3 m-lg-0 shadow rounded bg-white mb-4" style="padding: 0;"
           alt="carrusel fotos piscina">
           <div id="actividades_piscina_carousel" class="carousel slide">
             <div id="actividades_piscina_carousel" class="carousel slide">
@@ -554,141 +555,40 @@
         </div>
 
         <!-- Texto Actividades -->
-        <div class="col-lg-4 col-12 mb-3 mt-4">
-          <strong style="font-size: 23px;">Gimnasio</strong><br>
-          <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
-            consectetur
-            dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
-            dolorum suscipit
-            cumque.</label>
-          <br><a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
-            id="texto_actividades_links">->Ver fotos</a>
-
-          <br><br><br><strong style="font-size: 23px;">Piscina</strong><br>
-          <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
-            consectetur
-            dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
-            dolorum suscipit
-            cumque.</label>
-          <br><a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
-            id="texto_actividades_links">->Ver fotos</a>
-
-          <br><br><br><strong style="font-size: 23px;">Comedor</strong><br>
-          <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
-            consectetur
-            dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
-            dolorum suscipit
-            cumque.</label>
-          <br><a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
-            id="texto_actividades_links">->Ver fotos</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Reseñas -->
-  <div class="row g-0 justify-content-center mt-5 mb-5" id="row_reseñas">
-
-    <!-- Reseñas Carousel -->
-    <div class="col-12 col-lg-4 col-md-6 imgCarouselReseñas" style="border: #191617 solid 1px; padding: 0;">
-      <div class="carousel-indicators">
-        <button style="height: 14px; width: 14px;" type="button" id="reseñas_indicators"
-          data-bs-target="#reseñas_carousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button style="height: 14px; width: 14px;" type="button" id="reseñas_indicators"
-          data-bs-target="#reseñas_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button style="height: 14px; width: 14px;" type="button" id="reseñas_indicators"
-          data-bs-target="#reseñas_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner mb-4" style="padding: 0;">
-        <!-- Reseña 1 -->
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col-8 fs-3" style="margin-top: 25px; margin-left: 25px;" id="datosReseña1">
-              <label id="usuarioReseña1">Usuario20556</label>
-              <date id="fechaReseña1" style="font-size: large;">22/02/2024</date>
-              <rate id="califReseña1">Calif.</rate>
-            </div>
+        <div class="col-12 col-lg-12 mb-3 mt-4">
+          <div class="col-12 col-lg-12">
+            <strong style="font-size: 23px;">Gimnasio</strong><br>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
+              consectetur
+              dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
+              dolorum suscipit
+              cumque.</label>
+            <a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
+              id="texto_actividades_links">->Ver fotos</a>
           </div>
-          <div class="row justify-content-center" style="margin-top: 30px;">
-            <div class="col-11 rounded bg-white" style="height: 275px; border: #191617 solid 1px;"
-              id="contenidoReseña1"><img src="VIEW/img/res/Decor/estrella.png" class="img-fluid w-25" alt=""></div>
+          <div class="col-12 col-lg-12">
+            <strong style="font-size: 23px;">Piscina</strong><br>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
+              consectetur
+              dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
+              dolorum suscipit
+              cumque.</label>
+            <br><a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
+              id="texto_actividades_links">->Ver fotos</a>
           </div>
-          <div class="row">
-            <div class="col-12 d-flex justify-content-end"><input type="button" class="rounded" value="Cargar más"
-                onclick="cargarMasReseñas()"
-                style="width: 120px; height: 40px; margin-right: 25px; margin-top: 15px; border: black solid 1px; background-color: rgb(255, 221, 0); color: black;" />
-            </div>
-          </div>
-        </div>
-        <!-- Reseña 2 -->
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-8 fs-3" style="margin-top: 25px; margin-left: 25px;" id="datosReseña2">
-              <label>Usuario20557</label>
-              <date style="font-size: large;">22/02/2024</date>
-              <rate>Calif.</rate>
-            </div>
-          </div>
-          <div class="row justify-content-center" style="margin-top: 30px;">
-            <div class="col-11 rounded bg-white" style="height: 275px; border: #191617 solid 1px;"
-              id="contenidoReseña2"><img src="VIEW/img/res/Decor/estrella.png" class="img-fluid w-25" alt=""></div>
-          </div>
-          <div class="col-12 d-flex justify-content-end"><input type="button" class="rounded" value="Cargar más"
-              onclick="cargarMasReseñas()"
-              style="width: 120px; height: 40px; margin-right: 25px; margin-top: 15px; border: black solid 1px; background-color: rgb(255, 221, 0); color: black;" />
-          </div>
-        </div>
-        <!-- Reseña 3 -->
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-8 fs-3" style="margin-top: 25px; margin-left: 25px;" id="datosReseña3">
-              <label>Usuario20558</label>
-              <date style="font-size: large;">22/02/2024</date>
-              <rate>Calif.</rate>
-            </div>
-          </div>
-          <div class="row justify-content-center" style="margin-top: 30px;">
-            <div class="col-11 rounded bg-white" style="height: 275px; border: #191617 solid 1px;"
-              id="contenidoReseña3">
-              <img src="VIEW/img/res/Decor/estrella.png" class="img-fluid w-25" alt="">
-            </div>
-          </div>
-          <div class="col-12 d-flex justify-content-end"><input type="button" class="rounded" value="Cargar más"
-              onclick="cargarMasReseñas()"
-              style="font-weight: bold; width: 120px; height: 40px; margin-right: 25px; margin-top: 15px; border: 0; background-color: rgb(255, 221, 0); color: rgb(77, 77, 77);" />
+          <div class="col-12 col-lg-12">
+            <strong style="font-size: 23px;">Comedor</strong><br>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit obcaecati quisquam sed eos
+              consectetur
+              dignissimos odio nam iusto molestiae quae! Sunt voluptates ipsa sequi odio minus delectus
+              dolorum suscipit
+              cumque.</label>
+            <a href="/Home/home copy.html" style="text-decoration: none; color: rgb(255, 221, 0);"
+              id="texto_actividades_links">->Ver fotos</a>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Formulario reseñas -->
-    <div class="col-12 col-lg-4 col-md-6 mt-5 mt-lg-0 imgFormReseñas">
-      <div class="row" style="margin-left: 13px;">
-        <div class="col-10 fs-3 mt-5 text-white">
-          <h3 style="text-decoration: underline; font-weight: 700;">Déjanos tu opinión:</h3>
-          <subtitle style="font-size: large; font-weight: 700;">Descríbenos tu experiencia en HSF para poder
-            seguir
-            mejorando nuestro servicio.</subtitle>
-        </div>
-      </div>
-      <div class="row m-3 justify-content-center">
-        <div class="col-10">
-          <form action="action" method="post">
-            <input type="text" name="userFormReseñas" id="userFormReseñas" placeholder="Usuario o correo"
-              class="border-white rounded w-100" style="background: transparent; font-size: 22px;">
-            <input type="text" name="passFormReseñas" id="passFormReseñas" placeholder="Contraseña"
-              class="border-white rounded mt-3 mb-2 w-100" style="background: transparent; font-size: 22px;"><br>
-            <input type="checkbox" style="width: 15px; height: 15px;" name="checkFormReseñas" id="checkFormReseñas">
-            <label style="color: white;">Marque la casilla si quiere recibir notificaciones de ofertas y
-              promociones.</label><br>
-            <input type="submit" value="Enviar" name="submitReseñas" class="rounded mt-2"
-              style="margin-left: 175px; border: rgb(203, 176, 1) solid; color: white; background-color: rgb(203, 176, 1); width: 150px; height: 45px; font-size: larger;">
-          </form>
-        </div>
-      </div>
-    </div>
-
   </div>
 
   <!-- Modales -->
