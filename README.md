@@ -34,3 +34,5 @@ GUIA DE INSTALACION:
 6. Crear base de datos usuarios y meter script usuarios.sql que se encuentra en la carpeta "SQLDatabases".
 
 7. Crear base de datos productos y meter script productos.sql que se encuentra en la carpeta "SQLDatabases".
+
+LAS HISTORIAS DE USUARIO SE ENCUENTRAN EN LA CARPETA "Entregables"
