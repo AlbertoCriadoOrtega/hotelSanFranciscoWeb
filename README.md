@@ -7,6 +7,7 @@ página web del trabajo grupal del Segundo curso de DAW.
 - Carrito de compra
 - Login y Inicio de sesion
 - Responsive
+- App móvil
 
 ## Languagues
 
