@@ -1,6 +1,6 @@
 # API REST Sprint 2
 
-parte Cliente de la página web del trabajo grupal del Segundo curso de DAW.
+página web del trabajo grupal del Segundo curso de DAW.
 
 ## Features
 
@@ -14,4 +14,4 @@ parte Cliente de la página web del trabajo grupal del Segundo curso de DAW.
 
 ## Author
 
-- [@AlbertoCriadoOrtega](https://github.com/AlbertoCriadoOrtega)
+- Grupo Sprint "Cookie Developers2
