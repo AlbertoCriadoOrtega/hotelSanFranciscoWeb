@@ -15,7 +15,7 @@ página web del trabajo grupal del Segundo curso de DAW.
 
 ## Author
 
-- Grupo Sprint "Cookie Developers2
+- Grupo Sprint "Cookie Developers"
 
 ## Author
 
