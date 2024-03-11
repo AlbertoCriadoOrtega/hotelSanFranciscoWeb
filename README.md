@@ -17,7 +17,7 @@ página web del trabajo grupal del Segundo curso de DAW.
 
 - Grupo Sprint "Cookie Developers"
 
-## Author
+## INSTALACION
 
 GUIA DE INSTALACION:
 
@@ -35,4 +35,4 @@ GUIA DE INSTALACION:
 
 7. Crear base de datos productos y meter script productos.sql que se encuentra en la carpeta "SQLDatabases".
 
-LAS HISTORIAS DE USUARIO SE ENCUENTRAN EN LA CARPETA "Entregables"
+## LAS HISTORIAS DE USUARIO SE ENCUENTRAN EN LA CARPETA "Entregables"
