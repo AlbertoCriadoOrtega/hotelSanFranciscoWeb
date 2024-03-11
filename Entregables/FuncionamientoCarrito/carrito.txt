@@ -1,0 +1,22 @@
+Carrito de compra
+Para hacer el carrito de la compra, primero hicimos en la barra de navegación un icono de un carrito en el que se guardarán los productos que añadamos en él.  La estructura está desarrollada con bootstrap, en la cual tenemos un contenedor con 3 productos y otro contenedor con los otros 2 productos. Para la versión responsive se van poniendo de 2 en 2 hasta la versión más pequeña que se colocan de 1 en 1.
+En cuanto al funcionamiento el carrito funciona de la siguiente manera, las imágenes no persisten en la base de datos, las metemos mediante su url, los demás datos se obtienen mediante petición a la api Rest, véase el título, la descripción y el precio. Para añadir un producto al carrito lo que hacemos es verificar si el producto ya esta añadido, en ese caso lo que hacemos es incrementar el número de productos que hay de ese mismo en el carrito. Sino existe, se realiza el siguiente procedimiento para todos los productos.
+Primero: creamos el contenedor donde irán los productos
+Segundo: creamos los elementos para el contenido del producto: el nombre, la cantidad, el botón para eliminar el producto..
+Tercero: agregamos los elementos al contenedor y obtenemos el modal donde se desea agregar el producto y agregamos el contenedor al modal y aumentamos el número de ítems del carrito con una función que se ha creado para dicho cometido.
+
+Para eliminar un producto del carrito hemos realizado una función que se repite para cada producto que tengamos agregado en el carrito.
+Primero: por si el usuario se equivoca le lanzamos un aviso preguntando si quiere eliminar el producto que ha seleccionado
+Segundo: Al confirmar que quiere eliminar dicho producto lo que hacemos es coger todos los productos que haya de un tipo, mediante un bucle  llamamos a una funcion para rebajar el precio total dependiendo del total del productos que eliminemos y bajamos el numero de items del carrito.
+Tercero: para finalizar eliminamos el div del carrito y actualizamos todo lo que sea necesario.
+
+Para el precio, el total de items y el boton de compra tenemos las siguientes funciones:
+añadirPrecioTotal(precioAñadido) : coge el total en € y luego le va añadiendo en función de los productos que haya
+disminuirPrecioTotal(precioEliminado): Esta funcion realiza el contrario de la anterior, resta el precio en función de los productos que eliminemos
+aumentarNumCarrito(): Esta función es usada para saber el número de productos que tenemos en el carrito
+bajarNumCarrito():  Esta función realiza el contrario de la anterior, disminuye el total de productos que tenemos en el carrito
+confirmarCompra(): Esta función simplemente redirige al index ya que no tenemos un boton de compra
+
+
+Para la barra de navegación se ha implementado un javaScript sencillo que filtra por articulos y luego por el titulo del producto, va cogiendo lo que se va escribiendo y comparando con los productos que hay y eliminando los que no coincidan con lo que se está escribiendo/buscando
+
