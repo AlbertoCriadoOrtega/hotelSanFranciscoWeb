@@ -15,7 +15,7 @@
 
     // Cargamos los datos de los productos a la vista por cada uno de ellos obtenidos por json y luego transformados a array
     foreach ($datosProductosBBDD as $key => $value) {
-      echo '<div class="articulo col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-4">';
+      echo '<div id="producto" class="articulo col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-4">';
       echo '<div class="card">';
       echo '<img class="card-img-top" src="VIEW/img/' . $key . '.jpeg" data-bs-toggle="modal" data-bs-target="#myModal' . $key . '" title="Información" />';
       echo '<div class="modal fade" id="myModal' . $key . '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"aria-hidden="true">';
@@ -40,6 +40,4 @@
     ?>
   </div>
 </div>
-
-
 </body>

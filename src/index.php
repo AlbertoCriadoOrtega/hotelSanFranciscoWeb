@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 
 
@@ -46,7 +47,7 @@ require_once("VIEW/html/head.php");
     ;
     ?>
   </footer>
-
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer></script>
   <script src="VIEW/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" defer></script>
